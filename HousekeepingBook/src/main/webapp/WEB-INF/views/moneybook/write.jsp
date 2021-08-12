@@ -33,7 +33,9 @@ function check() {
 		return;
 	}
 	
-	if (result = true) {
+	result = true;
+	
+	if (result) {
 		$("form").submit();
 	}
 }
